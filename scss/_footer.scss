@@ -1,0 +1,28 @@
+@import "_colores.scss";
+
+/* Pie de pagina - colores*/
+// Relacinado a pie de pagina
+
+footer {
+	background-color: $primario-color;
+	background-image: linear-gradient(400deg, $primario-color 0%, $cuaternario-color 50%);
+	color: $blanco-color;
+	text-align: center;
+	bottom: 0;
+	height: 2%;
+	padding: 1.5rem;
+	margin-left: auto;
+	margin-top:1%;
+	width: 100%;
+	font-family:'Roboto Slab', serif;
+		a {
+			text-align: center;
+			text-decoration: none;
+			color:$blanco-color;
+			font-size: 20px;
+				:hover{
+					color:$blanco-color;
+				}
+}
+
+}

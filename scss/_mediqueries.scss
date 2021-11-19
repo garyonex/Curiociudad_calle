@@ -1,0 +1,18 @@
+//variables
+
+
+$pc: 1024px;    // PC 
+$tablet: 728px; // Tablet 
+$phone: 480px;  // phone
+
+@media (max-width: $phone) {
+  
+}
+
+@media (min-width: $phone) and (max-width: $tablet) {
+  
+}
+
+@media (min-width: $pc) {
+  
+}

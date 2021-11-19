@@ -1,0 +1,60 @@
+@import "_colores.scss";
+@import "_mediqueries.scss";
+
+$largo: 20rem;
+
+.fondo {
+  height: $largo;
+  margin-top: 7%;
+  margin-bottom: 1% ;
+  padding: 1% 0px;
+  background-color: $cuaternario-color;
+  background-image: url(../img/banner.jpg); 
+ }
+.fondo-caja{
+	position: absolute	;
+	display:grid	;
+	font-family:'Roboto Slab', serif;
+	padding: 10px 10 px;
+	background-color: transparent	;
+	height: $largo / 2;
+	width: 	8.5rem;
+	top: 25%;
+	left: 5%;
+	transform: translate(50%, 50%);
+}
+
+/*redes sociales*/
+// relacionado a redes sociales dentro del banner
+
+
+.social-bar{
+  display: flex;
+  flex-direction: row ;
+  margin-top: 3rem;
+  padding:  1.5rem;
+  right: 10%;
+  justify-content:flex-end;
+}
+
+.social-bar img{
+  height: 3.5rem;
+  width:  3.5rem;
+  margin: 2%;
+  padding: 1px;
+}
+
+.social__icon{
+    margin: 2rem;
+    padding-right: 1.5rem;
+}
+
+.social__icon-trans{
+  transition: width 5s height 5s;
+}
+
+.social__icon-trans:hover{
+    width: 5rem;
+    height: 5rem;
+}
+

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Seccion Entretenimiento - CurioCiudad</title>
+	 <!--Descripcion -->
+  <meta name="description" content="datos curiosos sobre diversos temas de interes general. entretenimiento ">
+  <!-- keywords-->
+  <meta name="keywords" content="Marvel, cines, Spiderman, entretenimiento">
+	<!-- bootstrap-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<!-- insertando ccs -->
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<!--link para utilizar iconos-->
+	<script src="https://kit.fontawesome.com/8cc9578468.js" crossorigin="anonymous"></script>
+	<!--insertando fuentes-->
+	<link href="https://fonts.googleapis.com/css?family=Rampart+One:regular" rel="stylesheet" />
+	 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap" rel="stylesheet">
+	 <!-- animaciones -->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+   <!--icono de pagina-->
+   <link rel="icon" href="../img/3300148.png">
+</head>
+<body>
+	<!-- menu responsive-->
+    <nav class="navbar navbar-light bg-light fixed-top navbar-expand-sm align- menu">
+    <div class="container-fluid logo ">
+      <a href="index.html" class="logo__tam"></a>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="offcanvas offcanvas-end border-white " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header navbar-expand-sm ">
+          <h1 class="offcanvas-title h5 " id="offcanvasNavbarLabel ">Menú</h1>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body text-white men menu__cont ">
+          <ul class="navbar-nav justify-content-sm-around  flex-grow-1 pe-3 menu__list">
+            <li class="nav-item text-white">
+             <!-- --> <a class="nav-link active menu__list-link  text-white" aria-current="page"  href="personas.html">Personas</a>
+            </li>
+            <li class="nav-item active menu__list-ord ">
+              <a class="nav-link menu__list-link text-white" href="deporte.html" >Deporte</a>
+            </li>
+             <li class="nav-item" >
+              <a class="nav-link active menu__list-link  text-white" aria-current="page" href="ciencia.html" >Ciencia</a></li>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link active menu__list-link text-white" aria-current="page" href="entretenimiento.html"  class="degra">Entretenimiento</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link active menu__list-link  text-white" aria-current="page" href="naturaleza.html"  class="degra">Naturaleza</a></li>
+            <li class="nav-item">
+              <a class="nav-link active menu__list-link  text-white" aria-current="page" href="mundo.html"  class="degra">Mundo</a>
+            </li>
+            <li class="nav-item active ">
+              <a class="nav-link active menu__list-link  text-white" href="#contacto " class="degra">Contacto</a>
+            </li>
+              </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--imagen de header y logo-->
+      <header>
+          <div class="fondo">
+          <div class="fondo-caja"><a href="../index.html"><img src="https://fontmeme.com/permalink/211019/f28651ac9c0e44f9a236da67d5f4fdf4.png" alt="futuristic-fonts" border="0"></a></div>
+        </div>
+      </header> 
+		<hr>
+		
+	<main>
+
+		<!-- Articulos seccion-->
+		
+		<article >
+				<h2 class=" h2">Marvel</h2>
+				<div align="center">
+					<img src="../img/marvel.jpg" alt="marvel" title="Marvel" width="500" alt="marvel studio">
+				</div>
+				<p class="parrafo">	
+				El Universo cinematográfico de Marvel (MCU; en inglés, Marvel Cinematic Universe) es una franquicia de medios y un universo compartido, centrada en una serie de películas de superhéroes producidas independientemente por Marvel Studios. Las películas están basadas en personajes que aparecen en los cómics estadounidenses publicados por Marvel Comics, como Ironman, el Capitán América, Spiderman, Hulk, Daredevil, Doctor Strange, Thor, Avispa, el Hombre Hormiga, Quake, Ghost Rider, el Punisher, la Bruja Escarlata, Pantera Negra y muchos más. La franquicia también incluye series de televisión, cortometrajes, series digitales y literatura. El universo compartido, al igual que el Universo Marvel original en los cómics, se estableció mediante cruce de elementos, escenarios, elenco y personajes comunes de la trama.
+			
+				</p>
+		
+		</article>
+	</main>
+	<h3>¿Desea contactarse con nosotros?</h3>
+      <section >
+        <form action="" id="contacto" class="form">
+          <label for="nombre" class="form__label">Tu nombre:</label>
+          <input class="form-input form-color" type="text" value="Nombre y Apellido" ><br>
+          <label for="email" class="form__label">Tu correo:</label>
+          <input class="form-input form-color" type="email" value="Email" class="men"><br>
+          <label for="Comentarios" class="">Mensaje:</label> 
+          <textarea class="form__textarea form-color form-input" name="Comentarios" cols="30" rows="10" required="" class="men">Tu comentario:</textarea><br>
+          <label for="Tema" class="form__label">Tema</label><br>
+          <select name="Tema" required=""><br>
+            <option class="form-color" value="Selecciona">Selecciona</option>
+            <option value="ciencia">Ciencia</option>
+            <option value="personas">Personas</option>
+            <option value="deporte">Deporte</option>
+            <option value="entretenimiento">Entretenimiento</option>
+            <option value="mundo">Mundo</option>
+            <option value="naturaleza">Naturaleza</option><br>
+            <input class="form-bt form-input " type="submit" value="Enviar">
+            <input class="form-bt " type="reset" value="Limpiar">
+            <div>Acepta terminos y condiciones</div>
+            <input class="acep" type="checkbox" value="Acepta" value="1" required="" >
+          </select>
+        </form>
+      </section>
+		<footer id="footer" class="footer-flex">Copy 2021 Elaborado por <a href="https://www.facebook.com/GaryStevenOnex/">Gary Calle</a></footer>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+	
+
+</html>
