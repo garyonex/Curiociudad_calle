@@ -1,8 +1,14 @@
 @import "_colores.scss";
 @import "_mediqueries.scss";
 
-$largo: 20rem;
 
+//variables de width y height
+//operaciones
+
+$largo: 20rem;
+$ancho: 1rem;
+
+//metodologia BEM
 .fondo {
   height: $largo;
   margin-top: 7%;
@@ -18,9 +24,9 @@ $largo: 20rem;
 	padding: 10px 10 px;
 	background-color: transparent	;
 	height: $largo / 2;
-	width: 	8.5rem;
+	width: $ancho * 8;
 	top: 25%;
-	left: 5%;
+	left: 2%;
 	transform: translate(50%, 50%);
 }
 
@@ -38,8 +44,8 @@ $largo: 20rem;
 }
 
 .social-bar img{
-  height: 3.5rem;
-  width:  3.5rem;
+  height: $largo / 5.6;
+  width: $ancho * 3.5;
   margin: 2%;
   padding: 1px;
 }
@@ -54,7 +60,7 @@ $largo: 20rem;
 }
 
 .social__icon-trans:hover{
-    width: 5rem;
-    height: 5rem;
+    width: $ancho * 5;
+    height: $largo / 4;
 }
 

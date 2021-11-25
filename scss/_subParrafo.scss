@@ -2,6 +2,7 @@
 // relacionado con subtitulos y parrafo
 
 @import "_colores.scss";
+$margen: 1em;
 
 article {
 	margin-top: 1%;
@@ -33,39 +34,94 @@ h2{
 	background-color:$terciario-color;
 	color: $blanco-color;
 	font-size: 40px;
-	font-family:'Roboto Slab', serif;
+	font-family:'Roboto Slab', serif; 
 	padding: auto;
+	margin-top:$margen;
+}
 
 h3{
 	font-family:'Roboto Slab', serif;
 	font-size: 20px;
-	color:$fuente-color;
-	text-align:center;
+  margin-top: $margen / 5;
+  font-size:  40px;
+  background-color: $h3-color;
 }
 
+h4{
+	font-family:'Roboto Slab', serif;
+	font-size: 20px;
+  margin-top: $margen / 5;
+  font-size:  40px;
+  text-align: center;
+  background-color: $h4-color
+}
 
 .parrafo{
 	line-height: 1.4;
 	font-family:'Roboto Slab', serif;
 	font-size: 18px;
 	margin: 15px;
+	font-weight:100;
 }
 
 .parrafo:first-child::first-letter{
 	font-size:25px
 }
+
 article a{
 		color:$fuente-color;
 		font-weight: bold;
 		font-size: 20PX;
-	}
+}
 article a:hover{
 	background-color: $primario-color;
 	background-image: linear-gradient(216deg, $primario-color 0%, $secundario-color 80%);
 	color: $blanco-color;
+}
+
+//metodologia bem
+
+.contenedor__left{
+  font-size: 30px;
+  font-weight: 300;
+  font-weight: 100;
+  font-size:  50px;
+  margin-top: $margen / 2;
+	 p{
+  font-weight: 400;
+  margin-top: 20px;
+  text-align: justify;
+  margin-right:$margen;
 	}
 }
 
-.slider-title{
-	backgroung-color: transparent;
+
+.contenedor__left img{
+  width :  620px;
+  float: left ;
+  margin-right: $margen;
+  margin-top: $margen;
+  margin-bottom:$margen;
+}
+
+.contenedor__right img{
+	width :  620px;
+  float: right ;
+  margin-right: $margen;
+  margin-top: $margen * 2 ;
+  margin-bottom: $margen;
+  margin-left: $margen;
+}
+
+.contenedor__right{
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: $margen / 2;
+
+  	p{
+  font-weight: 400;
+  margin-top: $margen;
+  text-align: justify;
+  margin-left:$margen;
+	}
 }

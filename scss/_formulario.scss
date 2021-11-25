@@ -1,6 +1,7 @@
 @import "_colores.scss";
 
-// formulario 
+// formulario mediante metodologia bem 
+//metodologia BEM
 
 .form {
   margin: 0 auto;
@@ -19,8 +20,6 @@
   vertical-align: -2px;
  
 }
-
-
 .form__label {
   display: inline-block;
   width: 90px;
@@ -29,10 +28,8 @@
 
 .form-input,
 .form__textarea {
-  
   width: 300px;
   box-sizing: border-box;
-
   border: 1px solid $secundario-color ;
 }
 
