@@ -1,112 +1,133 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<!--link para utilizar iconos-->
-	<script src="https://kit.fontawesome.com/8cc9578468.js" crossorigin="anonymous"></script>
-	<!-- bootstrap-->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<!-- animaciones -->
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-	  <!-- bootstrap-->
-	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<!--icono de pagina-->
-  <link rel="icon" href="../img/3300148.png">	
-<title>Seccion Personas - CurioCiudad</title>
- <!--Descripcion -->
-  <meta name="description" content="datos curiosos sobre diversos temas de interes general. Personas ">
-  <!-- keywords-->
-  <meta name="keywords" content="Personas, bill gates, elon musk">
-</head>
-<body>
-	 <!-- menu responsive-->
+  <!DOCTYPE html>
+  <html>
+  <head>
+  	<meta charset="utf-8">
+  	<link rel="stylesheet" type="text/css" href="../css/style.css">
+  	<!--link para utilizar iconos-->
+  	<script src="https://kit.fontawesome.com/8cc9578468.js" crossorigin="anonymous"></script>
+  	<!-- bootstrap-->
+  	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  	<!-- animaciones -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   <!-- bootstrap-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <!--icono de pagina-->
+   <link rel="icon" href="../img/3300148.png">	
+   <title>Seccion Personas - CurioCiudad</title>
+   <!--Descripcion -->
+   <meta name="description" content="datos curiosos sobre diversos temas de interes general. Personas ">
+   <!-- keywords-->
+   <meta name="keywords" content="Personas, bill gates, elon musk">
+  </head>
+  <body>
+    <!-- menu responsive-->
     <nav class="navbar navbar-light bg-light fixed-top navbar-expand-sm align- menu">
-    <div class="container-fluid logo ">
-      <a href="index.html" class="logo__tam"></a>
-      <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon "></span>
-      </button>
-      <div class="offcanvas offcanvas-end border-white " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header navbar-expand-sm ">
-          <h1 class="offcanvas-title h5 " id="offcanvasNavbarLabel ">Menú</h1>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body text-white men menu__cont ">
-          <ul class="navbar-nav justify-content-sm-around  flex-grow-1 pe-3 menu__list">
-            <li class="nav-item text-white">
-             <!-- --> <a class="nav-link active menu__list-link  text-white" aria-current="page"  href="personas.html">Personas</a>
-            </li>
-            <li class="nav-item active menu__list-ord ">
+      <div class="container-fluid logo ">
+        <a href="index.html" class="logo__tam"></a>
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="offcanvas offcanvas-end border-white " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header navbar-expand-sm ">
+            <h1 class="offcanvas-title h5 " id="offcanvasNavbarLabel ">Menú</h1>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body text-white men menu__cont ">
+            <ul class="navbar-nav justify-content-sm-around  flex-grow-1 pe-3 menu__list">
+              <li class="nav-item text-white">
+               <!-- --> <a class="nav-link active menu__list-link  text-white" aria-current="page"  href="personas.html">Personas</a>
+             </li>
+             <li class="nav-item active menu__list-ord ">
               <a class="nav-link menu__list-link text-white" href="deporte.html" >Deporte</a>
             </li>
-             <li class="nav-item" >
+            <li class="nav-item" >
               <a class="nav-link active menu__list-link  text-white" aria-current="page" href="ciencia.html" >Ciencia</a></li>
             </li>
             <li class="nav-item active">
               <a class="nav-link active menu__list-link text-white" aria-current="page" href="entretenimiento.html"  class="degra">Entretenimiento</a>
             </li>
-             <li class="nav-item">
-              <a class="nav-link active menu__list-link  text-white" aria-current="page" href="naturaleza.html"  class="degra">Naturaleza</a></li>
             <li class="nav-item">
-              <a class="nav-link active menu__list-link  text-white" aria-current="page" href="mundo.html"  class="degra">Mundo</a>
-            </li>
-            <li class="nav-item active ">
-              <a class="nav-link active menu__list-link  text-white" href="#contacto " class="degra">Contacto</a>
-            </li>
-              </ul>
+              <a class="nav-link active menu__list-link  text-white" aria-current="page" href="naturaleza.html"  class="degra">Naturaleza</a></li>
+              <li class="nav-item">
+                <a class="nav-link active menu__list-link  text-white" aria-current="page" href="mundo.html"  class="degra">Mundo</a>
+              </li>
+              <li class="nav-item active ">
+                <a class="nav-link active menu__list-link  text-white" href="#contacto " class="degra">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-		   <header>
-          <div class="fondo">
-          <div class="fondo-caja">  <a href="../index.html"><img src="https://fontmeme.com/permalink/211019/36b1762262e4faad24a6bab8de263d18.png" alt="futuristic-fonts" border="0"></a></div>
+    </nav>
+    <header>
+      <div class="fondo">
+        <div class="fondo-caja">  <a href="../index.html"><img src="https://fontmeme.com/permalink/211019/36b1762262e4faad24a6bab8de263d18.png" alt="futuristic-fonts" border="0"></a>
         </div>
-      </header>
-      <hr>
+        <div class="social-bar">
+          <div class="social__icon"><a href="https://facebook.com" target="_blank"><img src="../img/4494479.png" class="social__icon-trans" alt="facebook"></a></div> <br> 
+          <div class="social__icon"><a href="https://youtube.com" target="_blank"><img src="../img/4494485.png" class="social__icon-trans" alt="youtube"></a></div>
+          <div class="social__icon"><a href="https://instagram.com" target="_blank"><img src="../img/3670125.png" class="social__icon-trans" alt="instagram"></a></div>
+          <div class="social__icon"><a href="https://twitter.com" target="_blank"><img src="../img/3670151.png" class="social__icon-trans" alt="twitter"></a></div>
+        </div>
+      </div>
+    </header>
+    <hr>
 
-	<article >
-				<h2 class=""></h2>
-				<div align="center">
-					<img src="../img/" alt="" width="500">
-				</div>
-				<p class="parrafo">
-					
-				</p>
-			
-		
-		</article>
-	</main>
-	<h3>¿Desea contactarse con nosotros?</h3>
-      <section >
-        <form action="" id="contacto" class="form">
-          <label for="nombre" class="form__label">Tu nombre:</label>
-          <input class="form-input form-color" type="text" value="Nombre y Apellido" ><br>
-          <label for="email" class="form__label">Tu correo:</label>
-          <input class="form-input form-color" type="email" value="Email" class="men"><br>
-          <label for="Comentarios" class="">Mensaje:</label> 
-          <textarea class="form__textarea form-color form-input" name="Comentarios" cols="30" rows="10" required="" class="men">Tu comentario:</textarea><br>
-          <label for="Tema" class="form__label">Tema</label><br>
-          <select name="Tema" required=""><br>
-            <option class="form-color" value="Selecciona">Selecciona</option>
-            <option value="ciencia">Ciencia</option>
-            <option value="personas">Personas</option>
-            <option value="deporte">Deporte</option>
-            <option value="entretenimiento">Entretenimiento</option>
-            <option value="mundo">Mundo</option>
-            <option value="naturaleza">Naturaleza</option><br>
-            <input class="form-bt form-input " type="submit" value="Enviar">
-            <input class="form-bt " type="reset" value="Limpiar">
-            <div>Acepta terminos y condiciones</div>
-            <input class="acep" type="checkbox" value="Acepta" value="1" required="" >
-          </select>
-        </form>
-      </section>
-		<footer id="footer" class="footer-flex">Copy 2021 Elaborado por <a href="https://www.facebook.com/GaryStevenOnex/">Gary Calle</a></footer>
-		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-</body>
-	
+    <article>
+      <h2 class="">Elon Musk</h2>
+      <div class="contenedor__left">
+        <img src="../img/elonmusk.jpg" alt="elon musk">
+        <h3>¿ Quién es Elon Musk?</h3>
+        <p class="parrafo">Es un emprendedor y magnate sudafricano, nacionalizado canadiense y estadounidense. Cofundador de PayPal, SpaceX, Hyperloop, SolarCity, The Boring Company, Neuralink y OpenAI. Es director general de SpaceX, de Tesla Motors, presidente de SolarCity y copresidente de OpenAI. Es una de las personas más ricas del mundo, según la revista Forbes.</p>
+        <p class="parrafo">Millonario. Filántropo. Genio. Estos son algunos de los adjetivos que se usan para describir a un hombre que revoluciona el mundo con sus inventos. No se trata del héroe de Marvel, Tony Stark, sino del muy verdadero Elon Musk</p>
+        <p class="parrafo">Este emprendedor fundó el servicio de pago remoto PayPal, es dueño de Tesla Motors, fabricantes de autos deportivos eléctricos, cabeza de Space X, primera firma privada en viajar al espacio bajo contrato con la NASA, inspirador de Solar City, compañía que desarrolla tecnología de punta a base de energía fotovoltaica y responsable en Halcyon Molecular, laboratorio de biotecnología que busca cura para diversas enfermedades.</p>
+        <p class="parrafo">Musk nació en Pretoria, Sudáfrica, en 1971. Desde muy pequeño presentó una gran afinidad con la tecnología: a los 10 años reprogramó por sí solo su computadora Commodore VIC-20. De hecho, se cuenta que a los 17 años ya había vendido su primer videojuego totalmente programado por él en 500 dólares.</p>
+        <p class="parrafo">A los 17 años, viajó a América para estudiar administración de empresas y física en la Universidad de Pensilvania.</p>
+        <p class="parrafo">Como es común en la historia de este tipo de visionarios, Elon Musk abandonó en 1995 sus estudios de doctorado para fundar Zip2, compañía de servicios de internet para empresas de comunicación. Años después vendería el emprendimiento a AltaVista por más de 300 millones de dólares.</p>
+      </div>
+    </article>
+    <article>
+      <h2>Jeff Bezos</h2>
+      <div class="contenedor__right">
+        <img src="../img/jeffbezos.img" alt="Jeff Bezos" height="320px">
+        <h3>¿ Quién es Jeff Bezos?</h3>
+        <p class="parrafo">El norteamericano Jeff Bezos es fundador de la compañía Amazon y uno de los emprendedores más reputados en el mundo.</p>
+        <p class="parrafo">Jeff Bezos, cuyo nombre completo es Jeffrey Preston Bezos, nació en Nuevo México (Estados Unidos) en el año 1964. Si bien su nacimiento y su infancia tuvieron lugar en América, sus raíces familiares se ubican en España</p>
+        <p class="parrafo">Con formación relacionada con la ingeniería electrónica y la informática, ha desarrollado una trayectoria profesional y emprendedora de las más destacadas en el mundo y en la historia.</p>
+        <p class="parrafo">Con cualidades como el ingenio y la capacidad de inventar, Bezos palió su origen humilde con responsabilidad y una gran motivación emprendedora y poco aversa al riesgo</p>
+        <p class="parrafo">Si bien su gran logro es la creación del gigante Amazon, Bezos ha ocupado sus años de trayectoria profesional en multitud de proyectos empresariales. Proyectos que, dicho sea de paso, han destacado desde el punto de vista del éxito económico</p>
+        <p class="parrafo">Los pilares fundamentales de la carrera de Jeff Bezos se han sustentado en la diversificación, la especialización del trabajo, la adaptación a las nuevas tecnologías y el conocimiento de las conductas de consumo contemporáneas.</p>
 
-</html>
+      </div>
+    </article>
+  </main>
+  <h4>¿Desea contactarse con nosotros?</h4>
+  <section >
+    <form action="" id="contacto" class="form">
+      <label for="nombre" class="form__label">Tu nombre:</label>
+      <input class="form-input form-color" type="text" value="Nombre y Apellido" ><br>
+      <label for="email" class="form__label">Tu correo:</label>
+      <input class="form-input form-color" type="email" value="Email" class="men"><br>
+      <label for="Comentarios" class="">Mensaje:</label> 
+      <textarea class="form__textarea form-color form-input" name="Comentarios" cols="30" rows="10" required="" class="men">Tu comentario:</textarea><br>
+      <label for="Tema" class="form__label">Tema</label><br>
+      <select name="Tema" required=""><br>
+        <option class="form-color" value="Selecciona">Selecciona</option>
+        <option value="ciencia">Ciencia</option>
+        <option value="personas">Personas</option>
+        <option value="deporte">Deporte</option>
+        <option value="entretenimiento">Entretenimiento</option>
+        <option value="mundo">Mundo</option>
+        <option value="naturaleza">Naturaleza</option><br>
+        <input class="form-bt form-input " type="submit" value="Enviar">
+        <input class="form-bt " type="reset" value="Limpiar">
+        <div>Acepta terminos y condiciones</div>
+        <input class="acep" type="checkbox" value="Acepta" value="1" required="" >
+      </select>
+    </form>
+  </section>
+  <footer id="footer" class="footer-flex">Copy 2021 Elaborado por <a href="https://www.facebook.com/GaryStevenOnex/">Gary Calle</a></footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </body>
+  </html>
