@@ -42,14 +42,14 @@
   margin-left: 20px;
   border-radius: 10px;
   width: 5em;
-}
-.form-bt:hover{
-  background-color: $quinario-color;
+    &:hover{
+      background: $quinario-color;
+    }
+    &:focus{
+      background-color: $terciario-color;
+    }
 }
 
-.form-bt:focus{
-  background-color: $terciario-color;
-}
 
 // color dentro del input
 .form-color{

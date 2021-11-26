@@ -21,36 +21,33 @@ ul{
   padding: 1px 8px;
   margin: 5px 5px;
 
-}
-
-ul li{
+    li{
   flex-basis: $alto * 7.5;
   text-align: center;
   list-style: none;
   display: inline-block;
-}
+    }
+          a{
+        text-decoration: none;
+        background-color: transparent;
+        border-radius: 10px;
+        color: $fuente-color;
+            &:hover{
+              background-color: $primario-color;
+              background-image: linear-gradient(400deg, $primario-color 0%, $quinario-color 50%);
+              border-radius: 10px;
+            }
+          }
 
-ul li a{
-  text-decoration: none;
-  background-color: transparent;
-  border-radius: 10px;
-  color: $fuente-color;
-
-}
-
-.degra:hover{
-background-color: $primario-color;
-background-image: linear-gradient(400deg, $primario-color 0%, $quinario-color 80%);
-}
-
-ul a:hover{
-  background-color: $primario-color;
-  background-image: linear-gradient(400deg, $primario-color 0%, $quinario-color 50%);
-  border-radius: 10px;
 }
 
 nav ul li a{
   color: $blanco-color;
+        
+}
+.degra:hover{
+background-color: $primario-color;
+background-image: linear-gradient(400deg, $primario-color 0%, $quinario-color 80%);
 }
 
 .menu__cont {
