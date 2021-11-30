@@ -4,7 +4,7 @@
 nav {
   font-family: 'Roboto Slab', serif;
   height: 6em;
-  width: 100vw;
+  width: 84.3rem;
   margin-top: 0.1rem;
   background-color: #0cbaba;
   background-image: linear-gradient(400deg, #0cbaba 0%, #120859 50%); }
@@ -31,7 +31,8 @@ ul {
       border-radius: 10px; }
 
 nav ul li a {
-  color: #fbfbfb; }
+  color: #fbfbfb;
+  margin-left: 3rem; }
 
 .degra:hover {
   background-color: #0cbaba;
@@ -98,16 +99,21 @@ h2 {
 
 h3 {
   font-family: 'Roboto Slab', serif;
-  font-size: 20px;
-  margin-top: 0.2em;
   font-size: 40px;
-  background-color: rgba(247, 5, 42, 0.1); }
+  margin-top: 0.2em;
+  background-color: #A565E1;
+  color: #fbfbfb; }
 
 h4 {
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
   margin-top: 0.2em;
-  font-size: 40px;
+  background-color: rgba(247, 5, 42, 0.1); }
+
+h5 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  margin-top: 0.2em;
   text-align: center;
   background-color: rgba(193, 5, 250, 0.35); }
 
@@ -127,7 +133,6 @@ h4 {
   font-size: 30px;
   font-weight: 300;
   font-weight: 100;
-  font-size: 50px;
   margin-top: 0.5em; }
   .contenedor__left p {
     font-weight: 400;
@@ -158,6 +163,34 @@ h4 {
     margin-top: 1em;
     text-align: justify;
     margin-left: 1em; }
+
+.seccion-h2 {
+  background-color: #352D73;
+  color: #fbfbfb;
+  font-size: 40px;
+  font-family: 'Roboto Slab', serif;
+  padding: auto;
+  margin-top: 1em; }
+
+.seccion-h3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  margin-top: 0.2em;
+  background-color: #A565E1;
+  color: #fbfbfb; }
+
+.seccion-h4 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 10px;
+  margin-top: 0.2em;
+  background-color: rgba(247, 5, 42, 0.1); }
+
+.seccion-h5 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 10px;
+  margin-top: 0.2em;
+  text-align: center;
+  background-color: rgba(193, 5, 250, 0.35); }
 
 /*encabezado - header - banner - fondo*/
 .fondo {

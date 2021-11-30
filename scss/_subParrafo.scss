@@ -27,34 +27,36 @@ article {
 	font-family:'Roboto Slab', serif;
 	padding: auto;
 	text-align: center;
-	
 }
 
-h2{
-	background-color:$terciario-color;
-	color: $blanco-color;
-	font-size: 40px;
-	font-family:'Roboto Slab', serif; 
-	padding: auto;
-	margin-top:$margen;
-}
+	
+h2 {
+  background-color: $terciario-color;
+  color: #fbfbfb;
+  font-size: 40px;
+  font-family: 'Roboto Slab', serif;
+  padding: auto;
+  margin-top: 1em; }
 
 h3{
-	font-family:'Roboto Slab', serif;
-	font-size: 20px;
-  margin-top: $margen / 5;
-  font-size:  40px;
-  background-color: $h3-color;
-}
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+  margin-top: 0.2em;
+  background-color:$quinario-color; 
+	color: $blanco-color;}
 
 h4{
-	font-family:'Roboto Slab', serif;
-	font-size: 20px;
-  margin-top: $margen / 5;
-  font-size:  40px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  margin-top: 0.2em;
+  background-color: rgba(247, 5, 42, 0.1); }
+
+h5 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  margin-top: 0.2em;
   text-align: center;
-  background-color: $h4-color
-}
+  background-color: rgba(193, 5, 250, 0.35); }
 
 .parrafo{
 	line-height: 1.4;
@@ -76,7 +78,6 @@ h4{
   font-size: 30px;
   font-weight: 300;
   font-weight: 100;
-  font-size:  50px;
   margin-top: $margen / 2;
 			 p{
 		  font-weight: 400;
@@ -94,8 +95,6 @@ h4{
 				}
 
 }
-
-
 .contenedor__right{
   font-size: 30px;
   font-weight: 300;
@@ -117,3 +116,31 @@ h4{
 			  margin-left:$margen;
 				}
 }
+
+.seccion-h2 {
+  background-color: $terciario-color;
+  color: #fbfbfb;
+  font-size: 40px;
+  font-family: 'Roboto Slab', serif;
+  padding: auto;
+  margin-top: 1em; }
+
+.seccion-h3{
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  margin-top: 0.2em;
+  background-color:$quinario-color; 
+	color: $blanco-color;}
+
+.seccion-h4{
+  font-family: 'Roboto Slab', serif;
+  font-size: 10px;
+  margin-top: 0.2em;
+  background-color: rgba(247, 5, 42, 0.1); }
+
+.seccion-h5 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 10px;
+  margin-top: 0.2em;
+  text-align: center;
+  background-color: rgba(193, 5, 250, 0.35); }
