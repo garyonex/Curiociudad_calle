@@ -10,8 +10,7 @@ $ancho: 1rem;
 
 //metodologia BEM
 .fondo {
-  height: $largo;
-  margin-top: 7%;
+  height: $largo - 2;
   margin-bottom: 1% ;
   padding: 1% 0px;
   background-color: $cuaternario-color;
