@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="es">
 <head>
 	<meta charset="utf-8">	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -34,7 +33,7 @@
       </button>
       <div class="offcanvas offcanvas-end border-white " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header navbar-expand-sm ">
-          <h1 class="offcanvas-title h5 " id="offcanvasNavbarLabel ">Menú</h1>
+          <h1 class="offcanvas-title h5" id="offcanvasNavbarLabel">Menú</h1>
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body text-white men menu__cont ">
@@ -47,17 +46,16 @@
           </li>
           <li class="nav-item" >
             <a class="nav-link active menu__list-link  text-white" aria-current="page" href="ciencia.html" >Ciencia</a></li>
-          </li>
           <li class="nav-item active">
-            <a class="nav-link active menu__list-link text-white" aria-current="page" href="entretenimiento.html"  class="degra">Entretenimiento</a>
+            <a class="nav-link active menu__list-link text-white degra" aria-current="page" href="entretenimiento.html">Entretenimiento</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active menu__list-link  text-white" aria-current="page" href="naturaleza.html"  class="degra">Naturaleza</a></li>
+            <a class="nav-link active menu__list-link  text-white degra" aria-current="page" href="naturaleza.html">Naturaleza</a></li>
             <li class="nav-item">
-              <a class="nav-link active menu__list-link  text-white" aria-current="page" href="mundo.html"  class="degra">Mundo</a>
+              <a class="nav-link active menu__list-link text-white degra" aria-current="page" href="mundo.html">Mundo</a>
             </li>
             <li class="nav-item active ">
-              <a class="nav-link active menu__list-link  text-white" href="#contacto " class="degra">Contacto</a>
+              <a class="nav-link active menu__list-link text-white degra" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -66,7 +64,7 @@
   </nav>
   <header>
   	<div class="fondo">
-  		<div class="fondo-caja"><a href="../index.html"><img src="https://fontmeme.com/permalink/211019/c2b94b0fd9eb87e88f3cc03dcbea3833.png" alt="futuristic-fonts" border="0"></a>
+  		<div class="fondo-caja"><a href="../index.html"><img src="https://fontmeme.com/permalink/211019/c2b94b0fd9eb87e88f3cc03dcbea3833.png" alt="futuristic-fonts"></a>
   		</div>
   		<div class="social-bar">
         <div class="social__icon"><a href="https://facebook.com" target="_blank"><img src="../img/4494479.png" class="social__icon-trans" alt="facebook"></a></div> <br> 
@@ -114,28 +112,30 @@
 </article>
 </main>
 <h4 class="seccion-h4">¿Desea contactarse con nosotros?</h4>
-<section >
-  <form action="" id="contacto" class="form">
+<h5>¿Desea contactarse con nosotros?</h5>
+<section > <h6>Formulario</h6> <!--chequear-->
+  <form action="my-form" id="contacto" class="form">
     <label for="nombre" class="form__label">Tu nombre:</label>
-    <input class="form-input form-color" type="text" value="Nombre y Apellido" ><br>
-    <label for="email" class="form__label">Tu correo:</label>
-    <input class="form-input form-color" type="email" value="Email" class="men"><br>
-    <label for="Comentarios" class="">Mensaje:</label> 
-    <textarea class="form__textarea form-color form-input" name="Comentarios" cols="30" rows="10" required="" class="men">Tu comentario:</textarea><br>
-    <label for="Tema" class="form__label">Tema</label><br>
-    <select name="Tema" required=""><br>
-      <option class="form-color" value="Selecciona">Selecciona</option>
+    <input class="form-input form-color" type="text" value="Nombre yapellido" id="nombre"><br>
+    <label for="Email" class="form__label">Tu correo:</label>
+    <input class="form-input form-color men" type="email" value="Email" id="Email"><br>
+    <label for="comentarios">Mensaje:</label> 
+    <textarea class="form__textarea form-color form-input men" name="comentarios" cols="30" rows="10" required="" id="comentarios">Tu comentario:</textarea><br>
+    <label for="tema" class="form__label">Tema</label><br>
+    <select name="tema" required="" id="tema">
+      <option class="form-color" value="">Selecciona</option>
       <option value="ciencia">Ciencia</option>
       <option value="personas">Personas</option>
       <option value="deporte">Deporte</option>
       <option value="entretenimiento">Entretenimiento</option>
       <option value="mundo">Mundo</option>
-      <option value="naturaleza">Naturaleza</option><br>
-      <input class="form-bt form-input " type="submit" value="Enviar">
-      <input class="form-bt " type="reset" value="Limpiar">
-      <div>Acepta terminos y condiciones</div>
-      <input class="acep" type="checkbox" value="Acepta" value="1" required="" >
+      <option value="naturaleza">Naturaleza</option>
     </select>
+    <div>Acepta terminos y condiciones</div>
+    <input class="acep" type="checkbox"  value="1" required="" ><br>
+    <input class="form-bt form-input " type="submit" value="Enviar">
+    <input class="form-bt " type="reset" value="Limpiar">
+
   </form>
 </section>  
 

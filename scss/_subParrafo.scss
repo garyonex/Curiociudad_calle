@@ -48,7 +48,7 @@ h3{
 h4{
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
-  margin-top: 0.2em;
+  margin-top: $margen / 4;
   background-color: rgba(247, 5, 42, 0.1); }
 
 h5 {
@@ -58,6 +58,9 @@ h5 {
   text-align: center;
   background-color: rgba(193, 5, 250, 0.35); }
 
+ h6{
+ 	text-align: center;
+ }
 .parrafo{
 	line-height: 1.4;
 	font-family:'Roboto Slab', serif;
