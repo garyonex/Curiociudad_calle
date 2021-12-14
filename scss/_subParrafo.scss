@@ -137,9 +137,10 @@ h5 {
 
 .seccion-h4{
   font-family: 'Roboto Slab', serif;
-  font-size: 10px;
+  font-size: 20px;
   margin-top: 0.2em;
-  background-color: rgba(247, 5, 42, 0.1); }
+  background-color: rgba(247, 5, 42, 0.1);
+  text-align:center; }
 
 .seccion-h5 {
   font-family: 'Roboto Slab', serif;
@@ -147,10 +148,3 @@ h5 {
   margin-top: 0.2em;
   text-align: center;
   background-color: rgba(193, 5, 250, 0.35); }
-
-
-   @media only screen and (max-width: 460px) {
- .principal-title{
-   font-size:30px;
- }
-}

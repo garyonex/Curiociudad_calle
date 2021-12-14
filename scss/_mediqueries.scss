@@ -1,18 +1,36 @@
-//variables
+
+@import "menu";
+@import "footer";
+@import "subParrafo";
+@import "header";
+@import "colores";
+@import "formulario";
 
 
-$pc: 1024px;    // PC 
-$tablet: 728px; // Tablet 
-$phone: 480px;  // phone
+@media only screen and (max-width: 550px) {
+  .social-bar {
+   display: flex;
+   flex-direction: row;
+   margin-top: 0.8rem;
+   padding: 0.5rem;
+   right: 2%;
+   justify-content: flex-end; }
 
-@media (max-width: $phone) {
-  
-}
+   .social-bar img {
+    height: 2.8rem;
+    width: 2.8rem;
+    margin-top:5%;
+    padding: 1px; }
 
-@media (min-width: $phone) and (max-width: $tablet) {
-  
-}
+    .fondo-caja{
+     padding: 2px;
+     height: 5rem;
+     width: 20rem;
+     top: 10rem;
+     left: -4rem;}
 
-@media (min-width: $pc) {
-  
+     nav {
+      width: 100vw; }
+      .principal-title {
+        font-size: 30px; } 
 }
