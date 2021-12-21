@@ -562,7 +562,10 @@ h6 {
 .form-color {
   color: #380036; }
 
-@media only screen and (max-width: 550px) {
+/* @media screen and (min-width: 769px) {
+ 
+  } */
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
   .social-bar {
     display: flex;
     flex-direction: row;
@@ -591,3 +594,24 @@ h6 {
     width: 100vw; }
   .principal-title {
     font-size: 30px; } }
+
+@media only screen and (max-device-width: 480px) {
+  .social-bar img {
+    height: 2rem;
+    width: 2rem;
+    margin-top: 2%;
+    padding: 1px; }
+  .fondo-caja {
+    padding: 2px;
+    height: 4rem;
+    width: 8rem;
+    margin-top: 1rem;
+    margin-left: -5rem; }
+  .visual img {
+    padding: 2px;
+    height: 5rem;
+    width: 20rem;
+    margin-top: -2rem;
+    margin-left: 2rem; }
+  nav {
+    width: 100vw; } }
